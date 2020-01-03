@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.APITest">
+      <class name="com.qa.test.PutRestAssured">
         <methods>
-          <include name="post"/>
-          <include name="setUp"/>
+          <include name="updateUserBdd"/>
         </methods>
-      </class> <!-- com.qa.test.APITest -->
+      </class> <!-- com.qa.test.PutRestAssured -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
